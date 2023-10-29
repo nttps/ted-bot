@@ -19,10 +19,10 @@ services:
     volumes:
       - ../djs-bot:/djs-bot
     ports:
-      - "8080:8080"
-      - "3001:3001"
+      - "2234:8080"
+      - "2235:3001"
     working_dir: /djs-bot
-    command: ["npm", "run", "${ENABLE:-start}"]
+    command: ["npm", "run", "db-start"]
 
   dashboard:
     container_name: dashboard
@@ -34,7 +34,7 @@ services:
     volumes:
       - ../dashboard:/dashboard
     ports:
-      - "3000:3000"
+      - "2236:3000"
     working_dir: /dashboard
     command: ["npm", "run", "build-and-start"]
 

@@ -2,11 +2,11 @@ export const API_VERSION = process.env.NEXT_PUBLIC_API_VERSION || 'v1';
 export const WS_VERSION = process.env.NEXT_PUBLIC_WS_VERSION || 'v1';
 
 export const BASE_API_URL = `${
-    process.env.NEXT_PUBLIC_API_URL || 'localhost:3000'
+    process.env.NEXT_PUBLIC_API_URL || 'localhost:8080'
 }/api/${API_VERSION}`;
 
 export const BASE_WS_URL = `${
-    process.env.NEXT_PUBLIC_WS_URL || 'localhost:8080'
+    process.env.NEXT_PUBLIC_WS_URL || 'localhost:3001'
 }/ws/${WS_VERSION}`;
 
 export const API_SECURE_PROTOCOL =
