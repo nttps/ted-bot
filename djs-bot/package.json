@@ -43,7 +43,7 @@
 		"jsonwebtoken": "^9.0.2",
 		"moment": "^2.29.4",
 		"moment-duration-format": "^2.3.2",
-		"pretty-ms": "^7.0.1",
+		"pretty-ms": "^9.0.0",
 		"prisma": "^5.2.0",
 		"rlyrics": "^2.0.1",
 		"shoukaku": "^3.4.0",
