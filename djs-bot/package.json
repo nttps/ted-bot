@@ -24,7 +24,7 @@
 	"author": "SudhanPlayz",
 	"license": "CUSTOM",
 	"dependencies": {
-		"@fastify/cors": "^8.3.0",
+		"@fastify/cors": "^9.0.0",
 		"@prisma/client": "^5.2.0",
 		"axios": "^1.5.0",
 		"better-erela.js-apple": "^1.0.5",
